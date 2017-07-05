@@ -20,7 +20,7 @@ public class BtGlamCodecTest {
 		File alphabetFile = new File("glam2-working/alphabet_glam.txt");
 		BtGlamCodec gc = new BtGlamCodec(alphabetFile, "R", "L",
 				n -> SimilarityMetrics.exactActionHash(n));
-		System.out.println(Arrays.toString(gc.getAlphabet()));
+		//System.out.println(Arrays.toString(gc.getAlphabet()));
 		assertTrue(gc.getAlphabet().length == 184);
 		System.out.println("git test");
 	}
