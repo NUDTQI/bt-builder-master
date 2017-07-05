@@ -22,6 +22,6 @@ public class BtGlamCodecTest {
 				n -> SimilarityMetrics.exactActionHash(n));
 		//System.out.println(Arrays.toString(gc.getAlphabet()));
 		assertTrue(gc.getAlphabet().length == 184);
-		System.out.println("git test");
+		//System.out.println("git test");
 	}
 }
